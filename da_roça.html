@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da roça</title>
+</head>
+<style>
+    body {
+        background-color: #013C31;
+    }
+
+    #container-form{
+        width: 450px;
+        height: 490px;
+        border: 2px solid #FE7411;
+        align-self: center;
+        margin: auto;
+        background-color: #016855;
+    }
+    
+    form {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    input {
+        align-self: center;
+        margin: auto;
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    #titulo {
+        width: 100%;
+        height: 50px;
+        color: white;
+        background-color: #FE7411;
+        text-align: center;
+        align-self: center;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+
+    }
+
+    #opção1 {
+        height: 13px;
+        width: 20px;
+        margin-left: 80px;
+    }
+
+    #opção2 {
+        height: 13px;
+        width: 20px;
+
+    }
+
+    #opção3 {
+        height: 13px;
+        width: 20px;
+
+    }
+
+    #botão {
+        background-color: #FE7411;
+        color: white;
+        height: 40px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+
+    select {
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    p {
+        height: 20px;
+    }
+
+    #logo{
+        height: 150px;
+        width: 150px;
+        ;
+    }
+</style>
+<body>
+    <div id="container-form">
+        <p id="titulo">Dados para Cadastro</p>
+
+    <form>
+        <p>
+            <label>Nome:</label>
+        </p>
+
+        <p>
+            <input type="text"    placeholder="Digite o seu nome:">
+        </p>
+
+        <p>
+            <label>E-mail:</label>
+        </p>
+
+        <p>
+            <input type="email"    placeholder="Digite o seu email:">
+        </p>
+
+        <p>
+            <label>Endereço:</label>
+        </p>
+
+        <p>
+            <input type="text"    placeholder="Digite o seu endereço:">
+
+        <p>
+            <label>Gênero:</label>
+        </p>
+
+        <p>
+            <input type="radio" name="Gênero" value="M" id="opção1"> Masculino
+            <input type="radio" name="Gênero" value="F" id="opção2"> Feminino
+            <input type="radio" name="Gênero" value="N" id="opção3"> Prefiro não dizer
+        </p>
+        <p>
+            <label>Frequência com que receberá os produtos:</label>
+        </p>
+        <p>
+            <select name="Frequência com que receberá os produtos">
+                <option value="Semanal">Semanal</option>
+                <option value="Quinzenal">Quinzenal</option>
+                <option value="Mensal">Mensal</option>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" id="botão">
+        </p> 
+        
+    </form>
+    
+        </div>
+
+        <div>
+        <img id ="logo"- src="logo-pratica_profissional.png">
+        </div>
+
+</body>
+</html>
