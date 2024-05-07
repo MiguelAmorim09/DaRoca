@@ -1,0 +1,67 @@
+body{
+    background-color: #013C31;
+}
+
+header{
+    display: flex;
+}
+
+.logos{
+    padding-left: 20px;
+}
+
+.logoDaRoca_header{
+    width: 106px;
+    height: 46.375px;
+    flex-shrink: 0;
+}
+
+.logoCoracao_header{
+    width: 60px;
+    height: 56.545px;
+    flex-shrink: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 70px;
+}
+
+nav ul li{
+    display: inline;
+}   
+
+.botoes1{
+    color: #ffffff;
+    background-color: #ededed00;
+    padding: 2px 10px;     
+    text-decoration: none;
+}
+
+.login{
+    color: #ffffff;
+    background-color: #ededed00;
+    padding: 2px 10px;     
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.cadastro{
+    color: #ffffff;
+    background-color: #013C31;
+    padding: 2px 10px;     
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;    
+}
+
+/*.traco{
+    width: 12px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    background: #FFF;
+}*/
