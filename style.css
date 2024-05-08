@@ -3,6 +3,11 @@
     --secun-bg-color: #FE7411;
 }
 
+@font-face {
+    font-family: PoetseOne;
+    src: url(PoetsenOne-Regular.ttf);
+}
+
 body{
     background-color: var(--princ-bg-color);
 }
@@ -10,6 +15,7 @@ body{
 header{
     display: flex;
     align-items: center;
+    height: 100px;
 }
 
 .logoDaRoca_header{
@@ -25,16 +31,13 @@ header{
     margin-right: 2px;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 ul{
-    display: flex;
+    display: inline-flex;
+    align-items: flex-start;
     list-style: none;
     gap: 70px;
+    margin-left: 614px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -72,9 +75,18 @@ a{
     margin-bottom: -566px;
 }
 
+.conteudo_principal{
+    padding-top: 105px;
+}
+
+h1{
+    margin: 0px;
+}
+
 .peca-text{
     color: #FFF;
     text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.15);
+    font-family: PoetseOne;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -83,9 +95,12 @@ a{
     padding-right: 84px;
 }
 
+
+
 .text_principal{
     color: #FFF;
     text-shadow: 10px 5px 4px rgba(0, 0, 0, 0.30);
+    font-family: PoetseOne;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -95,8 +110,8 @@ a{
 }
 
 .frescas-text{
-    color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -104,4 +119,53 @@ a{
     padding-left: 70px;
     padding-right: 84px;
     padding-top: 32px;
+}
+
+.botoes_principal{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 75px;
+    gap: 60px;
+}
+
+.saiba{
+    display: flex;
+    width: 146.252px;
+    height: 61.176px;
+    padding: 8.588px 33.126px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.269px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18.403px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.comprar{
+    display: flex;
+    width: 146.252px;
+    height: 61.176px;
+    padding: 8.588px 33.126px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.269px;
+    border-radius: 26.992px;
+    background-color: var(--secun-bg-color);
+    box-shadow: 5px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18.403px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.imgBrocolis{
+    width: 186px;
+    height: 186px;
+    filter: drop-shadow(10px 50px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 250px;
+    margin-bottom: 658px;
+    align-self: flex-end;
 }
