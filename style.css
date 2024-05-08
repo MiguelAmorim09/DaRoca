@@ -1,143 +1,107 @@
+:root{
+    --princ-bg-color:#013C31;
+    --secun-bg-color: #FE7411;
+}
+
 body{
-    background-color: #013C31;
+    background-color: var(--princ-bg-color);
 }
 
 header{
     display: flex;
-}
-
-nav{
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 70px;
-}
-
-nav ul{
-    list-style: none;
-}
-
-nav ul li{
-    display: inline;
+    align-items: center;
 }
 
 .logoDaRoca_header{
-    width: 106px;
-    height: 46.375px;
-    flex-shrink: 0;
+    padding-left: 70px;
 }
 
-.logoCoracao_header{
-    width: 60px;
-    height: 56.545px;
-    flex-shrink: 0;
+.traco{
+    width: 12px;
+    height: 2px;
+    background: #FFF;
+    border-radius: 25%;
+    margin-left: 7px;
+    margin-right: 2px;
 }
 
-.botao1{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.login{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bt1{
+    border-radius: 20px;
+    padding: 6px 19px;
+}
+
+.bt-login{
     border-radius: 20px;
     border: 2px solid #FFF;
+    padding: 6px 21px;
 }
 
-.cadastro{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.bt-cadastro{
     border-radius: 20px;
-    background: #013C31;
+    background: var(--princ-bg-color);
+    padding: 6px 8px;
 }
 
 .retangulo_principal{
-    width: 1313.53px;
-    height: 1313.53px;
+    width: 1314px;
+    height: 1314px;
     transform: rotate(-60deg);
-    flex-shrink: 0;
     border-radius: 59px;
-    background: #FE7411;
+    background-color: var(--secun-bg-color);
     box-shadow: 10px 15px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 620px;
+    margin-top: -204px;
+    margin-right: -974px;
+    margin-bottom: -566px;
 }
 
-.semi-bold{
+.peca-text{
     color: #FFF;
     text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.15);
-    font-family: PoetsenOne;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 70px;
+    padding-right: 84px;
 }
 
-.bold{
+.text_principal{
     color: #FFF;
     text-shadow: 10px 5px 4px rgba(0, 0, 0, 0.30);
-    font-family: PoetsenOne;
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 70px;
+    padding-right: 84px;
 }
 
-.inter{
-    color: #FFF;
+.frescas-text{
+    color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-button{
-    display: flex;
-    width: 146.252px;
-    height: 61.176px;
-    padding: 8.588px 33.126px;
-    justify-content: center;
-    align-items: center;
-    gap: 12.269px;
-    flex-shrink: 0;
-}
-
-.saiba{
-    display: flex;
-    width: 146.252px;
-    height: 61.176px;
-    padding: 8.588px 33.126px;
-    justify-content: center;
-    align-items: center;
-    gap: 12.269px;
-    flex-shrink: 0;
-    border-radius: 26.992px;
-    background-color: #fcfcfc00;
-    text-decoration: none;
-}
-
-.comprar{
-    display: flex;
-    width: 146.252px;
-    height: 61.176px;
-    padding: 8.588px 33.126px;
-    justify-content: center;
-    align-items: center;
-    gap: 12.269px;
-    flex-shrink: 0;
-    border-radius: 26.992px;
-    background: #FE7411;
-    box-shadow: 5px 10px 4px 0px rgba(0, 0, 0, 0.25);
-    text-decoration: none;
+    padding-left: 70px;
+    padding-right: 84px;
+    padding-top: 32px;
 }
