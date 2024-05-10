@@ -1,0 +1,43 @@
+:root{
+    --princ-bg-color:#013C31;
+    --secun-bg-color: #FE7411;
+}
+
+@font-face {
+    font-family: PoetseOne;
+    src: url(PoetsenOne-Regular.ttf);
+}
+
+body{
+    background-color: var(--princ-bg-color);
+}
+
+.logo{
+    display: flex;
+}
+
+.principal{
+    align-items: center;
+    color: #FFF;
+}
+
+.principal h1{
+    padding-top: 40px;
+    font-family: PoetseOne;
+}
+
+.principal h6{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-family: PoetseOne;
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+    width: 287px;
+    height: 54px;
+    border-radius: 34px;
+    border: 3px solid #FFF;
+    background-color: rgba(217, 217, 217, 0.00);
+}
