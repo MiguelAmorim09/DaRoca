@@ -4,40 +4,132 @@
 }
 
 @font-face {
-    font-family: PoetseOne;
+    font-family: PoetsenOne;
     src: url(PoetsenOne-Regular.ttf);
 }
 
 body{
     background-color: var(--princ-bg-color);
-}
-
-.logo{
     display: flex;
 }
 
-.principal{
-    align-items: center;
-    color: #FFF;
-}
-
-.principal h1{
-    padding-top: 40px;
-    font-family: PoetseOne;
-}
-
-.principal h6{
-    padding-top: 17px;
-    padding-bottom: 17px;
-    font-family: PoetseOne;
-}
-
 a{
-    color: #FFF;
     text-decoration: none;
+    color: #FFF;
+}
+
+.logos{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+    margin-left: 78px;
+    margin-top: 88px;
+    margin-right: 83px;
+}
+
+.logoDaRoca{
+    width: 246px;
+    height: 184px;
+}
+
+.logoCoracao{
+    width: 239px;
+    height: 225px;
+}
+
+.principal{
+    width: 467px;
+    height: 344px;
+    margin-left: 137px;
+    margin-top: 42px;
+    margin-bottom: 325px;
+    text-align: center;
+    gap: 17px;
+    display: block;
+}
+
+.ola{
+    color: #FFF;
+    font-family: PoetsenOne;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: PoetsenOne;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.ou{
+    color: #FFF;
+    font-family: PoetsenOne;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.botaoPLogin{
     width: 287px;
     height: 54px;
-    border-radius: 34px;
     border: 3px solid #FFF;
-    background-color: rgba(217, 217, 217, 0.00);
+    border-radius: 34px;
+    background-color: #ffffff00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 29px 15px 29px;
+}
+
+form{
+    width: 767px;
+    height: 1024px;
+    border-radius: 59px;
+    background-color: var(--secun-bg-color);
+    box-shadow: 10px 15px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: -8px;
+    position: relative;
+}
+
+.criarConta{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    color: #FFF;
+    position: absolute;
+    margin: 309px 170px 310px 169px;
+}
+
+.criarConta h1{
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-family: PoetsenOne;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.criarConta .input{
+    width: 428px;
+    height: 48px;
+    background: rgba(217, 217, 217, 0.60);
+    border: 0 none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.criarConta .botao{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 176px;
+    height: 52px;
+    border-radius: 37px;
+    background: var(--princ-bg-color);
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 0 none;
 }
