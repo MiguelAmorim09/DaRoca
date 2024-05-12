@@ -1,0 +1,159 @@
+:root{
+    --princ-bg-color:#013C31;
+    --secun-bg-color: #FE7411;
+    --terci-bg-color: #33635A;
+    --quart-bg-color: #CC5D0C;
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(PoetsenOne-Regular.ttf);
+}
+
+body{
+    background-color: var(--princ-bg-color);
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 70px;
+    gap: 217px;
+    border-radius: 13px;
+    background-color: var(--secun-bg-color);
+}
+
+#logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#logoCoracao_header{
+    border-radius: 12px;
+}
+
+#buscar{
+    display: flex;
+    padding: 7px 17px;
+    align-items: center;
+    gap: 0px;
+}
+
+#buscar input{
+    width: 585px;
+    height: 30px;
+    background-color: rgba(217, 217, 217, 0.80);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0 none;
+    border-radius: 9px 0px 0px 9px;
+}
+
+#carrinho{
+    display: flex;
+    align-items: baseline;
+    gap: 9px;
+    width: 123px;
+    height: 37px;
+}
+
+#carrinho h1{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#produtos{
+    display: flex;
+    width: 1020px;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 42px 75px;
+    flex-wrap: wrap;
+    margin: 91px auto 263px auto;
+}
+
+#banana, #laranja, #limaoSis, #morango, #melancia, #abacaxi, #ponkan, #cereja, #abacate{
+    width: 270px;
+    height: 400px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+}
+
+#banana, #laranja, #limaoSis, #morango, #melancia, #abacaxi{
+    background-color: var(--terci-bg-color);
+}
+
+#ponkan, #cereja, #abacate{
+    background-color: var(--terci-bg-color);
+}
+
+#produtos input{
+    width: 22px;
+    height: 32px;
+    display: flex;
+    padding: 0px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 9px;
+    background: #FFF;
+    border: 0 none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#preFooter{
+    background-color: var(--secun-bg-color);
+    height: 100px;
+    padding: 81px 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#preFooter #bt-login, #preFooter #bt-cadastro{
+    background-color: #ffffff00;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: var(--quart-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 90px 28px 107px;
+}
+
+footer h1{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
