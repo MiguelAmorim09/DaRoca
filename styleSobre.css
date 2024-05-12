@@ -1,11 +1,17 @@
 :root{
     --princ-bg-color:#013C31;
     --secun-bg-color: #FE7411;
+    --terci-bg-color: #33635A;
+    --quart-bg-color: #CC5D0C;
 }
 
 @font-face {
     font-family: PoetsenOne;
     src: url(PoetsenOne-Regular.ttf);
+}
+
+body{
+    background-color: var(--princ-bg-color);
 }
 
 a{
@@ -26,10 +32,9 @@ header{
 }
 
 .logos{
-    gap: 21px;
-    margin-left: 42px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .logoCoracao_header{
@@ -65,6 +70,13 @@ ul{
 .page1{
     background-color: var(--princ-bg-color);
     display: flex;
+    width: 1743px;
+}
+
+.page1 .principal{
+    width: 450px;
+    height: 385px;
+    margin: 110px 0px 3413px 107px;
 }
 
 .page1 h2{
@@ -72,6 +84,7 @@ ul{
     font-size: 20px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
 }
 
 .page1 h1{
@@ -79,16 +92,221 @@ ul{
     font-family: PoetsenOne;
     font-size: 48px;
     font-weight: 400;
-}
-
-.principal{
-    width: 450px;
-    height: 385px;
-    margin-left: 107px;
-    margin-right: 87px;
+    margin-top: 0px;
 }
 
 .fotosPrincipal_sobre{
+    display: flex;
     width: 711px;
-    height: 535px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 7px 26px;
+    flex-wrap: wrap;
+    margin-bottom: 226px;
+    margin-left: 98px;
+}
+
+.page1 .foto3{
+    width: 312px;
+    height: 208px;
+}
+
+.page1 .foto4{
+    width: 373px;
+    height: 247px;
+}
+
+.page1 .foto2{
+    width: 187px;
+    height: 281px;
+}
+
+.page1 .foto1{
+    width: 274px;
+    height: 183px;
+}
+
+.page2{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+    background-color: var(--terci-bg-color);
+    padding: 101px 159px 47px 107px;
+}
+
+.page2 h1{
+    color: var(--secun-bg-color);
+    font-family: PoetsenOne;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.page2 h2{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.historia{
+    display: flex;
+    align-items: flex-start;
+    gap: 96px;
+}
+
+.textHistoria{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textHistoria h2{
+    width: 561px;
+    height: 395px;
+}
+
+.comoFunciona{
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+
+.textComoFunciona{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textComoFunciona h2{
+    width: 517px;
+    height: 197px;
+}
+
+.page3{
+    display: flex;
+    width: 1174px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 45px 101px;
+    flex-wrap: wrap;
+    padding: 72px 179px 72px 107px;
+}
+
+.page3 h1{
+    color: var(--secun-bg-color);
+    font-family: PoetsenOne;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.page3 h2{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.aEntrega{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 101px;
+}
+
+.aEntrega h2{
+    width: 564px;
+}
+
+.textAEntrega{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.oCliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 101px;
+}
+
+.textOCliente{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.oCliente h2{
+    width: 509px;
+}
+
+.page4{
+    background-color: var(--terci-bg-color);
+    padding: 50px;
+}
+
+.nossoTrabalho{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+}
+
+.texNossoTrabalho{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.nossoTrabalho h1{
+    color: var(--secun-bg-color);
+    font-family: PoetsenOne;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.nossoTrabalho h2{
+    width: 564px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.quaseFooter{
+    background-color: var(--secun-bg-color);
+    display: inline-flex;
+    width: 1743px;
+    height: 80px;
+    padding: 81px 392px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quaseFooter .bt-login, .bt-cadastro{
+    border: 0px;
+    background-color: #ffffff00;
+}
+
+footer{
+    background-color: var(--quart-bg-color);
+    display: flex;
+    padding: 28px 90px 28px 107px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer h2{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }
