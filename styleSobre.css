@@ -1,0 +1,94 @@
+:root{
+    --princ-bg-color:#013C31;
+    --secun-bg-color: #FE7411;
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(PoetsenOne-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+header{
+    height: 100px;
+    border-radius: 13px;
+    background-color: var(--secun-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 32px;
+    margin-top: -10px;
+}
+
+.logos{
+    gap: 21px;
+    margin-left: 42px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logoCoracao_header{
+    border-radius: 12px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bt1{
+    border-radius: 20px;
+    padding: 6px 19px;
+}
+
+.bt-login{
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    padding: 6px 21px;
+}
+
+.bt-cadastro{
+    border-radius: 20px;
+    background: var(--princ-bg-color);
+    padding: 6px 8px;
+}
+
+.page1{
+    background-color: var(--princ-bg-color);
+    display: flex;
+}
+
+.page1 h2{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page1 h1{
+    color: var(--secun-bg-color);
+    font-family: PoetsenOne;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.principal{
+    width: 450px;
+    height: 385px;
+    margin-left: 107px;
+    margin-right: 87px;
+}
+
+.fotosPrincipal_sobre{
+    width: 711px;
+    height: 535px;
+}
