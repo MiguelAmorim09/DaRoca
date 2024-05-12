@@ -14,11 +14,6 @@ body{
     background-color: var(--princ-bg-color);
 }
 
-a{
-    text-decoration: none;
-    color: #FFF;
-}
-
 header{
     height: 100px;
     border-radius: 13px;
@@ -29,6 +24,12 @@ header{
     padding-left: 70px;
     padding-right: 32px;
     margin-top: -10px;
+    margin-bottom: 148px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
 }
 
 .logos{
@@ -37,7 +38,7 @@ header{
     gap: 20px;
 }
 
-.logoCoracao_header{
+#logoCoracao_header{
     border-radius: 12px;
 }
 
@@ -50,52 +51,54 @@ ul{
     font-weight: 600;
 }
 
-.bt1{
+#bt1{
     border-radius: 20px;
     padding: 6px 19px;
 }
 
-.bt-login{
+#bt-login{
     border-radius: 20px;
     border: 2px solid #FFF;
     padding: 6px 21px;
 }
 
-.bt-cadastro{
+#bt-cadastro{
     border-radius: 20px;
     background: var(--princ-bg-color);
     padding: 6px 8px;
 }
 
-.page1{
-    background-color: var(--princ-bg-color);
+#inicio{
+    display: inline-flex;
+    align-items: center;
+    gap: 98px;
+    margin: 0px 74px 327px 107px;
+}
+
+#text_inicio{
     display: flex;
-    width: 1743px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
 }
 
-.page1 .principal{
-    width: 450px;
-    height: 385px;
-    margin: 110px 0px 3413px 107px;
-}
-
-.page1 h2{
+#text_inicio h2{
     color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 0px;
 }
 
-.page1 h1{
+#text_inicio h1{
+    width: 450px;
+    height: 347px;
     color: var(--secun-bg-color);
     font-family: PoetsenOne;
     font-size: 48px;
     font-weight: 400;
-    margin-top: 0px;
 }
 
-.fotosPrincipal_sobre{
+#fotos_inicio{
     display: flex;
     width: 711px;
     justify-content: center;
@@ -103,175 +106,71 @@ ul{
     align-content: center;
     gap: 7px 26px;
     flex-wrap: wrap;
-    margin-bottom: 226px;
-    margin-left: 98px;
 }
 
-.page1 .foto3{
-    width: 312px;
-    height: 208px;
-}
-
-.page1 .foto4{
-    width: 373px;
-    height: 247px;
-}
-
-.page1 .foto2{
-    width: 187px;
-    height: 281px;
-}
-
-.page1 .foto1{
-    width: 274px;
-    height: 183px;
-}
-
-.page2{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 56px;
-    background-color: var(--terci-bg-color);
-    padding: 101px 159px 47px 107px;
-}
-
-.page2 h1{
-    color: var(--secun-bg-color);
-    font-family: PoetsenOne;
-    font-size: 40px;
-    font-weight: 400;
-}
-
-.page2 h2{
-    color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
-    font-weight: 400;
-}
-
-.historia{
+#historia{
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     gap: 96px;
+    margin: 0px 159px 56px 107px;
 }
 
-.textHistoria{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.textHistoria h2{
-    width: 561px;
-    height: 395px;
-}
-
-.comoFunciona{
-    display: flex;
-    align-items: center;
-    gap: 94px;
-}
-
-.textComoFunciona{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.textComoFunciona h2{
-    width: 517px;
-    height: 197px;
-}
-
-.page3{
-    display: flex;
-    width: 1174px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 45px 101px;
-    flex-wrap: wrap;
-    padding: 72px 179px 72px 107px;
-}
-
-.page3 h1{
-    color: var(--secun-bg-color);
-    font-family: PoetsenOne;
-    font-size: 40px;
-    font-weight: 400;
-}
-
-.page3 h2{
-    color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
-    font-weight: 400;
-}
-
-.aEntrega{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 101px;
-}
-
-.aEntrega h2{
-    width: 564px;
-}
-
-.textAEntrega{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-}
-
-.oCliente{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 101px;
-}
-
-.textOCliente{
+#text_historia{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
 }
 
-.oCliente h2{
-    width: 509px;
-}
-
-.page4{
-    background-color: var(--terci-bg-color);
-    padding: 50px;
-}
-
-.nossoTrabalho{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 86px;
-}
-
-.texNossoTrabalho{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-}
-
-.nossoTrabalho h1{
+#text_historia h1, #text_comoFunciona h1, #aEntrega h1,
+#oCliente h1, #nossoTrabalho h1{
     color: var(--secun-bg-color);
     font-family: PoetsenOne;
     font-size: 40px;
     font-weight: 400;
 }
 
-.nossoTrabalho h2{
+#text_historia h2{
+    width: 561px;
+    height: 395px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#comoFunciona{
+    display: flex;
+    justify-content: center;
+    gap: 94px;
+    margin: 0px 159px 27px 107px;
+}
+
+#text_comoFunciona{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+#text_comoFunciona h2{
+    width: 517px;
+    height: 197px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#aEntrega{
+    display: flex;
+    justify-content: center;
+    gap: 101px;
+    margin: 0px 159px 45px 107px;
+}
+
+#aEntrega h2{
     width: 564px;
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
@@ -279,29 +178,58 @@ ul{
     font-weight: 400;
 }
 
-.quaseFooter{
-    background-color: var(--secun-bg-color);
+#oCliente{
+    display: flex;
+    justify-content: center;
+    gap: 101px;
+    margin: 0px 159px 57px 107px;
+}
+
+#oCliente h2{
+    width: 509px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#nossoTrabalho{
     display: inline-flex;
-    width: 1743px;
-    height: 80px;
+    justify-content: center;
+    gap: 86px;
+    margin: 0px 159px 183px 107px;
+}
+
+#nossoTrabalho h2{
+    width: 564px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#preFooter{
+    background-color: var(--secun-bg-color);
+    height: 100px;
     padding: 81px 392px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.quaseFooter .bt-login, .bt-cadastro{
-    border: 0px;
+#preFooter #bt-login, #preFooter #bt-cadastro{
     background-color: #ffffff00;
+    border: none;
 }
 
 footer{
     background-color: var(--quart-bg-color);
     display: flex;
-    padding: 28px 90px 28px 107px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
+    padding: 28px 90px 28px 107px;
 }
 
 footer h2{
