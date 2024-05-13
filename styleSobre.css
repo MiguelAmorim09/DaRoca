@@ -72,7 +72,7 @@ ul{
     display: inline-flex;
     align-items: center;
     gap: 98px;
-    margin: 0px 74px 327px 107px;
+    margin: 0px 74px 327px 160px;
 }
 
 #text_inicio{
@@ -195,9 +195,9 @@ ul{
 
 #nossoTrabalho{
     display: inline-flex;
-    justify-content: center;
+    text-align: center;
     gap: 86px;
-    margin: 0px auto 183px auto;
+    margin: 0px 159px 183px 160px;
 }
 
 #nossoTrabalho h2{
