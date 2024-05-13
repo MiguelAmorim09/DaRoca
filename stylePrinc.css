@@ -12,125 +12,92 @@ body{
     background-color: var(--princ-bg-color);
 }
 
-header{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    width: 1440px;
-    padding: 20px 42px;
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.logos{
-    width: 187px;
-    height: 56px;
+header{
+    display: flex;
+    padding: 20px 42px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logos{
+    display: flex;
+    align-items: center;
     gap: 21px;
-    margin-left: 42px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: inline-flex;
 }
 
 ul{
-    display: flex;
     list-style: none;
+    display: flex;
+    justify-content: center;
     gap: 70px;
-    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.bt1{
-    border-radius: 20px;
+ul a{
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
     padding: 6px 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-.bt-login{
-    border-radius: 20px;
+#bt-login{
     border: 2px solid #FFF;
-    padding: 6px 21px;
-}
-
-.bt-cadastro{
     border-radius: 20px;
-    background: var(--princ-bg-color);
-    padding: 6px 8px;
 }
 
-.retangulo_principal{
-    width: 1314px;
-    height: 1314px;
-    transform: rotate(-60deg);
-    border-radius: 59px;
-    background-color: var(--secun-bg-color);
-    box-shadow: 10px 15px 4px 0px rgba(0, 0, 0, 0.25);
-    margin-left: 620px;
-    margin-top: -204px;
-    margin-right: -974px;
-    margin-bottom: -566px;
+#bt-cadastro{
+    background-color: var(--princ-bg-color);
+    border-radius: 20px;
 }
 
-.conteudo_principal{
-    padding-top: 105px;
+#conteudo_principal{
+    display: flex;
+    width: 704px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 106px 676px 401px 60px;
 }
 
-h1{
+#conteudo_principal h1{
+    color: #FFF;
+    font-family: PoetsenOne;
+    font-size: 70px;
+    font-weight: 400;
     margin: 0px;
 }
 
-.peca-text{
-    color: #FFF;
+#peca-text{
     text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.15);
-    font-family: PoetsenOne;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 70px;
-    padding-right: 84px;
 }
 
-
-
-.text_principal{
-    color: #FFF;
+#text_principal{
     text-shadow: 10px 5px 4px rgba(0, 0, 0, 0.30);
-    font-family: PoetsenOne;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 70px;
-    padding-right: 84px;
 }
 
-.frescas-text{
+#conteudo_principal h2{
     color: rgba(255, 255, 255, 0.80);
     font-family: PoetsenOne;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    padding-left: 70px;
-    padding-right: 84px;
-    padding-top: 32px;
 }
 
-.botoes_principal{
+#botoes_principal{
     display: flex;
-    padding-left: 60px;
-    padding-top: 75px;
-    gap: 60px;
+    padding: 33px 0px;
+    justify-content: center;
+    align-items: center;
 }
 
-.saiba{
+#saiba{
     display: flex;
     width: 146px;
     height: 61px;
@@ -138,9 +105,11 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 12px;
+    font-size: 18.403px;
+    font-weight: 700;
 }
 
-.comprar{
+#comprar{
     display: flex;
     width: 146px;
     height: 61px;
@@ -148,16 +117,9 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 12px;
-    border-radius: 27px;
     background-color: var(--secun-bg-color);
+    border-radius: 27px;
     box-shadow: 5px 10px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.imgBrocolis{
-    width: 186px;
-    height: 186px;
-    filter: drop-shadow(10px 50px 4px rgba(0, 0, 0, 0.25));
-    margin-left: 250px;
-    margin-bottom: 658px;
-    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 700;
 }

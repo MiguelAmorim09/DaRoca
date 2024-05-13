@@ -10,6 +10,12 @@
     src: url(PoetsenOne-Regular.ttf);
 }
 
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
     background-color: var(--princ-bg-color);
 }
@@ -25,7 +31,7 @@ header{
     background-color: var(--secun-bg-color);
 }
 
-#logos{
+.logos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,17 +58,13 @@ header{
     border-radius: 9px 0px 0px 9px;
 }
 
-#carrinho{
+.carrinho{
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     gap: 9px;
-    width: 123px;
-    height: 37px;
 }
 
-#carrinho h1{
-    color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+.carrinho h1{
     font-size: 15px;
     font-weight: 600;
 }
@@ -127,11 +129,6 @@ header{
 #preFooter #bt-login, #preFooter #bt-cadastro{
     background-color: #ffffff00;
     border: none;
-}
-
-a{
-    text-decoration: none;
-    color: #FFF;
 }
 
 ul{

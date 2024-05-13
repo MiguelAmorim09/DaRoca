@@ -18,7 +18,7 @@ a{
     color: #FFF;
 }
 
-.logos{
+#logos{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -28,17 +28,17 @@ a{
     margin-right: 83px;
 }
 
-.logoDaRoca{
+#logoDaRoca{
     width: 246px;
     height: 184px;
 }
 
-.logoCoracao{
+#logoCoracao{
     width: 239px;
     height: 225px;
 }
 
-.principal{
+#principal{
     width: 467px;
     height: 344px;
     margin-left: 137px;
@@ -49,14 +49,14 @@ a{
     display: block;
 }
 
-.ola{
+#principal h1{
     color: #FFF;
     font-family: PoetsenOne;
     font-size: 40px;
     font-weight: 400;
 }
 
-.text{
+#principal h2{
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -65,7 +65,7 @@ a{
     font-weight: 400;
 }
 
-.ou{
+#principal h3{
     color: #FFF;
     font-family: PoetsenOne;
     font-size: 18px;
@@ -73,7 +73,7 @@ a{
     margin-bottom: 40px;
 }
 
-.botaoPCadas{
+#principal a{
     width: 287px;
     height: 54px;
     border: 3px solid #FFF;
@@ -95,7 +95,7 @@ form{
     position: relative;
 }
 
-.logar{
+#logar{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -105,14 +105,14 @@ form{
     margin: 309px 170px 310px 169px;
 }
 
-.logar h1{
+#logar h1{
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     font-family: PoetsenOne;
     font-size: 64px;
     font-weight: 400;
 }
 
-.logar .input{
+#logar .input{
     width: 428px;
     height: 48px;
     background: rgba(217, 217, 217, 0.60);
@@ -122,7 +122,7 @@ form{
     font-weight: 600;
 }
 
-.logar .botao{
+#logar #botao{
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
