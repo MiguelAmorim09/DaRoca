@@ -58,6 +58,12 @@ header{
     border-radius: 9px 0px 0px 9px;
 }
 
+#buscar button{
+    background-color: #ffffff00;
+    border: 0 none;
+    padding: 0px
+}
+
 .carrinho{
     display: flex;
     align-items: flex-end;
@@ -81,7 +87,7 @@ header{
 
 #banana, #laranja, #limaoSis, #morango, #melancia, #abacaxi, #ponkan, #cereja, #abacate{
     width: 270px;
-    height: 400px;
+    height: 450px;
     display: flex;
     padding: 10px;
     flex-direction: column;
