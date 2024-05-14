@@ -83,7 +83,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 53px;
-    margin: 47px auto 47px 755px;
+    margin: 47px auto 47px 275px;
 }
 
 #frutas_categoria{
@@ -106,7 +106,7 @@ header{
     font-weight: 600;
 }
 
-#legumes_categoria{
+#vegetais_categoria{
     display: flex;
     height: 40px;
     padding: 0px 16px;
@@ -127,7 +127,7 @@ header{
     margin: 0px auto 263px auto;
 }
 
-#banana, #laranja, #limaoSis, #morango, #melancia, #abacaxi, #ponkan, #cereja, #abacate{
+.fruta, .vegetal{
     width: 270px;
     height: 490px;
     display: flex;
@@ -138,7 +138,7 @@ header{
     border-radius: 9px;
 }
 
-#banana, #laranja, #limaoSis, #morango, #melancia, #abacaxi{
+.fruta, .vegetal{
     background-color: var(--terci-bg-color);
 }
 
