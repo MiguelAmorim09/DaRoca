@@ -3,6 +3,7 @@
     --secun-bg-color: #FE7411;
     --terci-bg-color: #33635A;
     --quart-bg-color: #CC5D0C;
+    --quint-bg-color: #84A19C;
 }
 
 @font-face {
@@ -56,6 +57,8 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     border: 0 none;
     border-radius: 9px 0px 0px 9px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 #buscar button{
@@ -75,6 +78,45 @@ header{
     font-weight: 600;
 }
 
+#categorias{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    margin: 47px auto 47px 755px;
+}
+
+#frutas_categoria{
+    display: flex;
+    width: 90px;
+    height: 40px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: var(--quint-bg-color);
+}
+
+#categorias h1{
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#legumes_categoria{
+    display: flex;
+    height: 40px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: var(--quint-bg-color);
+}
+
 #produtos{
     display: flex;
     width: 1020px;
@@ -82,12 +124,12 @@ header{
     align-items: flex-start;
     gap: 42px 75px;
     flex-wrap: wrap;
-    margin: 91px auto 263px auto;
+    margin: 0px auto 263px auto;
 }
 
 #banana, #laranja, #limaoSis, #morango, #melancia, #abacaxi, #ponkan, #cereja, #abacate{
     width: 270px;
-    height: 450px;
+    height: 490px;
     display: flex;
     padding: 10px;
     flex-direction: column;
@@ -107,6 +149,7 @@ header{
 #produtos h1{
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 #produtos input{
@@ -123,6 +166,32 @@ header{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
+    font-weight: 600;
+}
+
+.dados_produtos{
+    display: flex;
+    padding: 6px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+
+.dados_produtos button{
+    border: 0 none;
+    border-radius: 9px;
+    background-color: #FFF;
+    display: flex;
+    width: 50px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
     font-weight: 600;
 }
 
