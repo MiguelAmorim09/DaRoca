@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: var(--princ-bg-color);
+    background-color: var(--princ-bg-color)
 }
 
 a{
@@ -18,37 +18,49 @@ a{
 }
 
 header{
+    color: #FFF;
     text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 400;
-    margin: 30px 611px 35px 35px;
+    margin: 30px 611px 34px 35px;
 }
 
 main{
     display: flex;
+    justify-content: center;
+    margin-top: -85px;
+    height: 900px;
+}
+
+#textos{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    margin: 88px 92px 315px 78px;
 }
 
 #logos{
-    display: inline-flex;
+    display: flex;
+    width: 550px;
+    height: 230px;
     justify-content: center;
     align-items: center;
     gap: 74px;
-    margin: 0px 92px 37px 78px;
 }
 
-#logos img{
-    width: 246px;
-    height: 190px;  
+img{
+    width: 240px;
+    height: 190px;
 }
 
 #textPrincipal{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 28px;
-    margin: 0px 116px 315px 137px;
 }
 
 #textPrincipal h1{
@@ -80,28 +92,31 @@ main{
 #textPrincipal a{
     width: 287px;
     height: 54px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid #FFF;
     border-radius: 34px;
-    background: rgba(217, 217, 217, 0.00);
-    color: #FFF;
+    border: 3px solid #FFF;
+    background-color: rgba(217, 217, 217, 0.00);
     font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #principal{
+    width: 767px;
+    height: 800px;
+    border-radius: 59px;
+    background-color: var(--secun-bg-color);
+    box-shadow: 10px 15px 4px 0px rgba(0, 0, 0, 0.25);
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     gap: 33px;
-    background-color: var(--secun-bg-color);
-    width: 767px;
-    height: 1024px;
-    border-radius: 59px;
-    box-shadow: 10px 15px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 176px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 #principal h1{
@@ -112,23 +127,23 @@ main{
     font-weight: 400;
 }
 
+.infos{
+    width: 428px;
+    height: 48px;
+    background-color: rgba(217, 217, 217, 0.60);
+    border: 0px none;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 33px;
-}
-
-.infos{
-    width: 428px;
-    height: 48px;
-    background: rgba(217, 217, 217, 0.60);
-    border: 0px none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgba(0, 0, 0, 0.60);
-    font-size: 20px;
-    font-weight: 600;
 }
 
 #button{
