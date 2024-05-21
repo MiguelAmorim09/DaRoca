@@ -3,7 +3,7 @@
     --secun-bg-color: #FE7411;
     --terci-bg-color: #33635A;
     --quart-bg-color: #CC5D0C;
-    --quint-bg-color: #84A19C;
+    --quint-bg-color: #002A22;
 }
 
 @font-face {
@@ -99,7 +99,7 @@ header{
 }
 
 #categorias h1{
-    color: #000000;
+    color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
