@@ -27,12 +27,6 @@
     </header>
 
     <main>
-        <div id="categorias">
-            <a href="#" id="frutas_categoria"><h1>Frutas</h1></a>
-            <a href="#" id="vegetais_categoria"><h1>Vegetais</h1></a>
-            <a href="#" id="legumes_categoria"><h1>Legumes</h1></a>
-        </div>
-
         <div id="produtos">
             <div id="banana" class="fruta">
                 <img src="imgs\imgBanana_prod.png">
@@ -64,7 +58,7 @@
                     </label>
                 </div>
             </div>
-            <div id="brocolis" class="vegetal">
+            <div id="brocolis" class="legume">
                 <img src="imgs\imgBrocolis_prod.png">
                 <h1>Brócolis</h1>
                 <div class="dados_produtos">
@@ -169,9 +163,9 @@
                     </label>
                 </div>
             </div>
-            <div id="ponkan" class="fruta">
-                <img src="imgs\imgPonkan_prod.png">
-                <h1>Ponkan</h1>
+            <div id="pokan" class="fruta">
+                <img src="imgs\imgPokan_prod.png">
+                <h1>Pokan</h1>
                 <div class="dados_produtos">
                     <div><h1>R$ 6,00</h1></div>
                     <button>+</button>
@@ -230,17 +224,16 @@
                 </div>
             </div>
         </div>
-
-        <div id="preFooter">
-            <nav>
-                <ul>
-                    <li><a id="bt1" href="sobre.html">Sobre</a></li>
-                    <li><a id="bt-login" href="login.html">Login</a></li>
-                    <li><a id="bt-cadastro" href="cadastro.html">Cadastro</a></li>
-                </ul>
-            </nav>
-        </div>
     </main>
+    <div id="preFooter">
+        <nav>
+            <ul>
+                <li><a id="bt1" href="sobre.html">Sobre</a></li>
+                <li><a id="bt-login" href="login.html">Login</a></li>
+                <li><a id="bt-cadastro" href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </div>
     <footer>
         <div class="logos">
             <a href="principal.html"><img id="logoDaRoca_header" src="imgs\logoDaRoca_header.svg"></a>
@@ -248,5 +241,42 @@
         </div>
         <h1>Projeto DaRoça - Cotuca - Feito por João Torres e Miguel Amorim - PD24</h1>
     </footer>
+
+    <!--<script>
+        let produtos = [{nome:'Banana', preco: '6,00', categ: 'fruta'}, 
+                        {nome:'Laranja', preco: '6,00', categ: 'fruta'},
+                        {nome:'Brócolis', preco: '6,00', categ: 'vegetal'},
+                        {nome:'Limão sisciliano', preco: '6,00', categ: 'fruta'},
+                        {nome:'Morango', preco: '6,00', categ: 'fruta'},
+                        {nome:'Melancia', preco: '6,00', categ: 'fruta'},
+                        {nome:'Pimentão', preco: '6,00', categ: 'legume'},
+                        {nome:'Tomate', preco: '6,00', categ: 'legume'},
+                        {nome:'Abacaxi', preco: '6,00', categ: 'fruta'},
+                        {nome:'Pokan', preco: '6,00', categ: 'fruta'},
+                        {nome:'Cereja', preco: '6,00', categ: 'fruta'},
+                        {nome:'Abacate', preco: '6,00', categ: 'fruta'},
+                        {nome:'Berinjela', preco: '6,00', categ: 'legume'},
+                       ]
+
+            pagina = ''
+            for(let i in produtos){
+            pagina += '<div id="'+produtos[i].nome+'" class="'+produtos[i].categ+'">'
+            pagina += '<img src="imgs\img'+produtos[i].nome+'_prod.png">'
+            pagina += '<h1>'+produtos[i].nome+'</h1>'
+            pagina += '<div class="dados_produtos">'
+            pagina += '<div><h1>R$ '+produtos[i].preco+'</h1></div>'
+            pagina += '<button>+</button>'
+            pagina += '<label for "unidade">'
+            pagina += '<select id="unidade">'
+            pagina += '<option value="unidade">Unidade</option>'
+            pagina += '<option value="duzia">Dúzia</option>'
+            pagina += '<option value="quilo">Quilo</option>'
+            pagina += '</select>'
+            pagina += '</label>'
+            pagina += '</div>'
+        }
+
+        document.getElementById('produtos').innerHTML = pagina
+    </script>-->
 </body>
 </html>
