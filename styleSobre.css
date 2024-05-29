@@ -24,7 +24,6 @@ header{
     padding-left: 70px;
     padding-right: 32px;
     margin-top: -10px;
-    margin-bottom: 148px;
 }
 
 a{
@@ -68,11 +67,27 @@ ul{
     padding: 6px 8px;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    margin: 50px;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 130px;
+}
+
 #inicio{
     display: inline-flex;
+    justify-content: center;
     align-items: center;
     gap: 98px;
-    margin: 0px 74px 327px 160px;
 }
 
 #text_inicio{
@@ -111,9 +126,7 @@ ul{
 #historia{
     display: flex;
     align-items: flex-start;
-    justify-content: center;
     gap: 96px;
-    margin: 0px 159px 56px 107px;
 }
 
 #text_historia{
@@ -142,9 +155,7 @@ ul{
 
 #comoFunciona{
     display: flex;
-    justify-content: center;
     gap: 94px;
-    margin: 0px 159px 27px 107px;
 }
 
 #text_comoFunciona{
@@ -165,9 +176,7 @@ ul{
 
 #aEntrega{
     display: flex;
-    justify-content: center;
     gap: 101px;
-    margin: 0px 159px 45px 107px;
 }
 
 #aEntrega h2{
@@ -180,9 +189,7 @@ ul{
 
 #oCliente{
     display: flex;
-    justify-content: center;
     gap: 101px;
-    margin: 0px 159px 57px 107px;
 }
 
 #oCliente h2{
@@ -197,7 +204,6 @@ ul{
     display: inline-flex;
     text-align: center;
     gap: 86px;
-    margin: 0px 159px 183px 160px;
 }
 
 #nossoTrabalho h2{
