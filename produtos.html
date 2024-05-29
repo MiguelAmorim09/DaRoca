@@ -7,22 +7,81 @@
     <link rel="stylesheet" href="styleProdutos.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logos">
+            <a href="principal.html"><img id="logoDaRoca_header" src="imgs\logoDaRoca_header.svg"></a>
+            <a href="principal.html"><img id="logoCoracao_header" src="imgs\logoCoracao_header.svg"></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a id="sacola" href="sacola.html"><img src="imgs\vecSacola.svg">Sacola</a></li>    
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="categorias">
+            <a href="#" id="frutas_categoria"><h1>Frutas</h1></a>
+            <a href="#" id="vegetais_categoria"><h1>Vegetais</h1></a>
+            <a href="#" id="legumes_categoria"><h1>Legumes</h1></a>
+        </div>
+
+        <div id="produtos">
+
+        </div>
+    </main>
+
+    <div id="preFooter">
+        <nav>
+            <ul>
+                <li><a id="bt1" href="sobre.html">Sobre</a></li>
+                <li><a id="bt-login" href="login.html">Login</a></li>
+                <li><a id="bt-cadastro" href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </div>
+    <footer>
+        <div class="logos">
+            <a href="principal.html"><img id="logoDaRoca_header" src="imgs\logoDaRoca_header.svg"></a>
+            <a href="principal.html"><img id="logoCoracao_header" src="imgs\logoCoracao_header.svg"></a>
+        </div>
+        <h1>Projeto DaRoça - Cotuca - Feito por João Torres e Miguel Amorim - PD24</h1>
+    </footer>
     <script>
-        let produtos = [{nome: 'Banana', preco: 2.99},
-                        {nome: 'Laranja', preco: 4.99},
-                        {nome: 'Brocolis', preco: 7.99},
-                        {nome: 'Limao sisciliano', preco: 6.99},
-                        {nome: 'Morango', preco: 12.99},
-                        {nome: 'Melancia', preco: 2.99},
-                        {nome: 'Pimentao', preco: 19.99},
-                        {nome: 'Tomate', preco: 11.99},
-                        {nome: 'Abacaxi', preco: 6.99},
-                        {nome: 'Pokan', preco: 5.99},
-                        {nome: 'Cereja', preco: 12.99},
-                        {nome: 'Abcacate', preco: 6.99},
-                        {nome: 'Berinjela', preco: 6.99},
+        let produtos = [{nome: 'Banana', valor: 2.99, categoria: 'fruta', imagem: 'imgBanana_prod.png'},
+                        {nome: 'Laranja', valor: 4.99, categoria: 'fruta', imagem: 'imgLaranja_prod.png'},
+                        {nome: 'Brócolis', valor: 7.99, categoria: 'vegetal', imagem: 'imgBrocolis_prod.png'},
+                        {nome: 'Limao sisciliano', valor: 6.99, categoria: 'fruta', imagem: 'imgLimaoSis_prod.png'},
+                        {nome: 'Morango', valor: 12.99, categoria: 'fruta', imagem: 'imgMorango_prod.png'},
+                        {nome: 'Melancia', valor: 2.99, categoria: 'fruta',imagem: 'imgMelancia_prod.png'},
+                        {nome: 'Pimentão', valor: 19.99, categoria: 'legume', imagem: 'imgPimentao_prod.png'},
+                        {nome: 'Tomate', valor: 11.99, categoria: 'fruta', imagem: 'imgTomate_prod.png'},
+                        {nome: 'Abacaxi', valor: 6.99, categoria: 'fruta', imagem: 'imgAbacaxi_prod.png'},
+                        {nome: 'Pokan', valor: 5.99, categoria: 'fruta', imagem: 'imgPokan_prod.png'},
+                        {nome: 'Cereja', valor: 12.99, categoria: 'fruta', imagem: 'imgCereja_prod.png'},
+                        {nome: 'Abacate', valor: 6.99, categoria: 'fruta', imagem: 'imgAbacate_prod.png'},
+                        {nome: 'Berinjela', valor: 6.99, categoria: 'legume', imagem: 'imgBerinjela_prod.png'},
                        ]
+        let pagina = ''
+        for(let i in produtos){
+            pagina += '<div id="'+produtos[i].nome+'"class="'+produtos[i].categoria+'">'
+            pagina += '<img src="imgs\\'+produtos[i].imagem+'">'
+            pagina += '<h1>'+produtos[i].nome+'</h1>'
+            pagina += '<div class="dados_produtos">'
+            pagina += '<div><h1>'+produtos[i].valor+'</h1></div>'
+            pagina += '<button>+</button>'
+            pagina += '<label for="unidade">'
+            pagina += '<select id="unidade">'
+            pagina += '<option value="unidade">Unidade</option>'
+            pagina += '<option value="duzia">Duzia</option>'
+            pagina += '<option value="quilo">Quilo</option>'
+            pagina += '</select>'
+            pagina += '</label>'
+            pagina += '</div>'
+            pagina += '</div>'
+        }
+
+        document.querySelector('#produtos').innerHTML = pagina
     </script>
 </body>
 </html>

@@ -23,13 +23,14 @@ body{
 
 header{
     height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 21px 70px;
-    gap: 217px;
     border-radius: 13px;
     background-color: var(--secun-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 32px;
+    margin-top: -10px;
 }
 
 .logos{
@@ -138,7 +139,7 @@ header{
     margin: 0px auto 263px auto;
 }
 
-.fruta, .vegetal{
+.fruta, .vegetal, .legume{
     width: 270px;
     height: 490px;
     display: flex;
@@ -149,7 +150,7 @@ header{
     border-radius: 9px;
 }
 
-.fruta, .vegetal{
+.fruta, .vegetal, .legume{
     background-color: var(--terci-bg-color);
 }
 
