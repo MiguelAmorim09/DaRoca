@@ -1,0 +1,316 @@
+:root{
+    --princ-bg-color:#013C31;
+    --secun-bg-color: #FE7411;
+    --terci-bg-color: #33635A;
+    --quart-bg-color: #CC5D0C;
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(PoetsenOne-Regular.ttf);
+}a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--princ-bg-color);
+}
+
+header{
+    height: 100px;
+    border-radius: 13px;
+    background-color: var(--secun-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 32px;
+    margin-top: -10px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#logoCoracao_header{
+    border-radius: 12px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#bt1{
+    border-radius: 20px;
+    padding: 6px 19px;
+}
+
+#bt-login{
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    padding: 6px 21px;
+}
+
+#bt-cadastro{
+    border-radius: 20px;
+    background: var(--princ-bg-color);
+    padding: 6px 8px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#main{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 40px;
+}
+
+#principais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textoPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principais h1{
+    color: #FFF;
+
+    font-family: PoetsenOne;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#principais h2{
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: PoetsenOne;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#principais button{
+    height: 29px;
+    width: 68px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 74px;
+    gap: 10px;
+
+    border-radius: 9px;
+    border: 0 none;
+    background-color: var(--secun-bg-color);
+
+
+    color: #FFF;
+    font-family: PoetsenOne;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.produtos_sacola{
+    width: 847px;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    gap: 10px;
+
+    background-color: var(--terci-bg-color);
+    border-radius: 9px;
+}
+
+.nome-qntd-remove{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+.preco{
+    width: 130px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    background: #FFF;
+    border-radius: 9px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#produtos button{
+    color: #FFF;
+    background-color: #ffffff00;
+    border: 0 none;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    
+    text-decoration-line: underline;
+}
+
+#precoFinal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    gap: 40px;
+}
+
+#freteText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 18px;
+
+    color: #FFF;
+    font-family: PoetsenOne;
+}
+
+#freteText h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#freteText h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#areaPagar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    gap: 13px;
+}
+
+#subtotal-frete{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.dados{
+    display: flex;
+    align-items: flex-start;
+    
+    gap: 221px;
+}
+
+#areaPagar button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 156px;
+    height: 44px;
+    
+    padding: 0px 74px;
+    gap: 10px;
+
+    border-radius: 9px;
+    border: 0 none;
+    background-color: var(--secun-bg-color);
+
+    color: #FFF;
+    font-family: PoetsenOne;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.dados h2, .dados h1{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#preFooter{
+    background-color: var(--secun-bg-color);
+
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    padding: 81px 392px;
+    margin-top: 146px;
+}
+
+#preFooter #bt-login, #preFooter #bt-cadastro{
+    background-color: #ffffff00;
+    border: none;
+}
+
+footer{
+    background-color: var(--quart-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 90px 28px 107px;
+}
+
+footer h2{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
