@@ -15,10 +15,6 @@ body{
     height: 100vh;
 }
 
-main{
-    padding: 100px;
-}
-
 a{
     text-decoration: none;
     color: #FFF;
@@ -62,16 +58,24 @@ ul a{
 }
 
 #bt-cadastro{
-    background-color: var(--princ-bg-color);
+    background-color: var(--secun-bg-color);
     border-radius: 20px;
 
     height: 20px;
+}
+
+#conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #conteudo_principal{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    margin-left: 10%;
 }
 
 #conteudo_principal h1{
@@ -132,15 +136,15 @@ ul a{
 }
 
 #qrdLaranja{
-    height: 670px;
+    width: 850px;
+    height: 850px;
 
     border-radius: 59px 0px 0px 59px;
     box-shadow: 10px 15px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: var(--secun-bg-color);
 
-    z-index: -1;
-}
+    display: flex;
+    justify-content: center;
 
-#conteudo{    
-    padding: 100px;
+    z-index: -1;
 }
