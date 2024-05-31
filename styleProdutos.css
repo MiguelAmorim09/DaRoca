@@ -11,10 +11,15 @@
     src: url(PoetsenOne-Regular.ttf);
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
 a{
     text-decoration: none;
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
 }
 
 body{
@@ -55,7 +60,7 @@ header{
     width: 585px;
     height: 30px;
     background-color: rgba(217, 217, 217, 0.80);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     border: 0 none;
     border-radius: 9px 0px 0px 9px;
     font-size: 15px;
@@ -112,7 +117,7 @@ main{
 #categorias h1{
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 24px;
     font-weight: 600;
 }
@@ -170,7 +175,7 @@ main{
 
 #produtos h1{
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     margin: 0px;
 }
 
@@ -186,7 +191,7 @@ main{
     background: #FFF;
     border: 0 none;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 32px;
     font-weight: 600;
 }
@@ -212,7 +217,7 @@ main{
     gap: 10px;
     color: #000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 36px;
     font-weight: 600;
 }
@@ -237,7 +242,7 @@ ul{
     display: flex;
     list-style: none;
     gap: 70px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 15px;
     font-weight: 600;
 }
@@ -252,7 +257,7 @@ footer{
 
 footer h1{
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 15px;
     font-weight: 400;
 }

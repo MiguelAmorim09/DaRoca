@@ -10,8 +10,13 @@
     src: url(PoetsenOne-Regular.ttf);
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
 body{
-    background-color: var(--princ-bg-color);
+    background: url('imgs\\background.svg');
 }
 
 header{
@@ -29,6 +34,7 @@ header{
 a{
     text-decoration: none;
     color: #FFF;
+    font-family: Inter;
 }
 
 .logos{
@@ -45,7 +51,7 @@ ul{
     display: flex;
     list-style: none;
     gap: 70px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 15px;
     font-weight: 600;
 }
@@ -99,7 +105,7 @@ main{
 
 #text_inicio h2{
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 20px;
     font-weight: 600;
 }
@@ -148,7 +154,7 @@ main{
     width: 561px;
     height: 395px;
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 27px;
     font-weight: 400;
 }
@@ -169,7 +175,7 @@ main{
     width: 517px;
     height: 197px;
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 27px;
     font-weight: 400;
 }
@@ -182,7 +188,7 @@ main{
 #aEntrega h2{
     width: 564px;
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 27px;
     font-weight: 400;
 }
@@ -195,7 +201,7 @@ main{
 #oCliente h2{
     width: 509px;
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 27px;
     font-weight: 400;
 }
@@ -209,7 +215,7 @@ main{
 #nossoTrabalho h2{
     width: 564px;
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 27px;
     font-weight: 400;
 }
@@ -240,7 +246,7 @@ footer{
 
 footer h2{
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     font-size: 15px;
     font-weight: 400;
 }

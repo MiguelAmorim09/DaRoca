@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="teste" width="1440" height="4096" viewBox="0 0 1440 4096" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<rect width="1440" height="4096" fill="#013C31" stroke-dasharray="0,0,0,11072"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,11072; 
+          0,5536,5536,0; 
+          11072,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect y="3052" width="1440" height="1044" fill="#33635A" stroke-dasharray="0,0,0,4968"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,4968; 
+          0,2484,2484,0; 
+          4968,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect y="1004" width="1440" height="1044" fill="#33635A" stroke-dasharray="0,0,0,4968"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,4968; 
+          0,2484,2484,0; 
+          4968,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+</svg>
