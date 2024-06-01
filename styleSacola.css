@@ -23,18 +23,20 @@ a{
 
 body{
     background: url('imgs\\background.svg');
+    margin: 0;
 }
 
 header{
-    height: 100px;
-    border-radius: 13px;
-    background-color: var(--secun-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 70px;
-    padding-right: 32px;
-    margin-top: -10px;
+
+    height: 10%;
+
+    border-radius: 0px 0px 20px 20px;
+    background-color: var(--secun-bg-color);
+
+    padding: 10px;
 }
 
 .logos{

@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="styleLogin.css">
 </head>
 <body>
+    <h1 onclick="voltar()" id="voltar">< Voltar</h1>
     <div id="principal">
-        <h1>Entrar</h1>
-        <form>  
-            <input class="infos" type="email" placeholder="Email">
-            <input class="infos" type="password" placeholder="Senha">
-            <button>ENTRAR</button> 
-        </form>
+        <div id="entrar">
+            <h1>Entrar</h1>
+            <form>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button>Entrar</button>
+            </form>
+        </div>
     </div>
 
     <div id="textos">
@@ -31,6 +34,10 @@
     </div>
 
     <script>
+        function voltar(){
+            history.back()
+        }
+
         function redirecionar(){
             location.href = 'cadastro.html'
         }
