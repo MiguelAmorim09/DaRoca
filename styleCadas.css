@@ -157,7 +157,7 @@ body{
     font-weight: 400;
 }
 
-#textPrincipal a{
+#textPrincipal button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,4 +173,11 @@ body{
     font-family: Inter;
     font-size: 1.25rem;
     font-weight: 600;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#textPrincipal button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }

@@ -17,7 +17,7 @@
             <h1>Olá amigo(a)!</h1>
             <h2>Insira alguma informações e comece sua experiência conosco</h2>
             <h3>ou</h3>
-            <a href="login.html">JÁ TENHO UMA CONTA</a>
+            <button onclick="redirecionar()">JÁ TENHO UMA CONTA</button>
         </div>
     </div>
         
@@ -30,5 +30,11 @@
             <button>CRIAR CONTA</button>
         </form>
     </div>
+
+    <script>
+        function redirecionar(){
+            location.href = 'login.html'
+        }
+    </script>
 </body>
 </html>

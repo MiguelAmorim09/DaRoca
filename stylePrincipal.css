@@ -116,29 +116,59 @@ ul a{
 
 #saiba{
     display: flex;
-    width: 146px;
-    height: 61px;
-    padding: 9px 33px;
     justify-content: center;
     align-items: center;
+
+    width: 146px;
+    height: 61px;
+
     gap: 12px;
-    font-size: 18.403px;
+
+    border-radius: 27px;
+    border: 0 none;
+    background-color: #ffffff00;
+
+    color: #FFF;
+    text-shadow: 0px 3px 78.6px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 18px;
     font-weight: 700;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#saiba:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 #comprar{
     display: flex;
-    width: 106px;
-    height: 40px;
-    padding: 9px 33px;
     justify-content: center;
     align-items: center;
+    
+    width: 146px;
+    height: 61px;
+    
+    padding: 8px 33px;
     gap: 12px;
+
+    border-radius: 27px;
+    border: 0 none;
     background-color: var(--secun-bg-color);
-    border-radius: 20px;
     box-shadow: 5px 10px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: Inter;
     font-size: 18px;
     font-weight: 700;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#comprar:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 #qrdLaranja{

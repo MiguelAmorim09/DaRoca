@@ -31,8 +31,8 @@
                 <h2>frutas e verduras frescas</h2>
 
                 <div id="botoes_principal">
-                    <a id="saiba" href="sobre.html">Saiba Mais ></a>
-                    <a id="comprar" href="produtos.html">Comprar<br>&ensp;Agora</a>
+                    <button id="saiba" onclick="saibaMais()">Saiba Mais ></button>
+                    <button id="comprar" onclick="comprar()">Comprar<br>&ensp;Agora</button>
                 </div>
             </div>
             <div id="qrdLaranja">
@@ -40,5 +40,15 @@
             </div>
         </div>
     </main>
+
+    <script>
+        function saibaMais(){
+            location.href = 'sobre.html'
+        }
+
+        function comprar(){
+            location.href = 'produtos.html'
+        }
+    </script>
 </body>
 </html>
