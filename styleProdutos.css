@@ -37,7 +37,7 @@ header{
     border-radius: 0px 0px 20px 20px;
     background-color: var(--secun-bg-color);
 
-    padding: 10px;
+    padding: 10px 40px 10px 40px;
 }
 
 .logos{
@@ -51,14 +51,14 @@ header{
     border-radius: 12px;
 }
 
-#buscar{
+#searchBar{
     display: flex;
     padding: 7px 17px;
     align-items: center;
     gap: 0px;
 }
 
-#buscar input{
+#searchBar input{
     width: 585px;
     height: 30px;
     background-color: rgba(217, 217, 217, 0.80);
@@ -67,12 +67,6 @@ header{
     border-radius: 9px 0px 0px 9px;
     font-size: 15px;
     font-weight: 600;
-}
-
-#buscar button{
-    background-color: #ffffff00;
-    border: 0 none;
-    padding: 0px
 }
 
 .carrinho{
