@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FrmRemover</class>
+ <widget class="QMainWindow" name="FrmRemover">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Remover produto</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #013C31;
+</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextUnderIcon</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>90</y>
+      <width>313</width>
+      <height>182</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QSpinBox" name="spbID">
+       <property name="styleSheet">
+        <string notr="true">background-color: #fff;
+color: #000;</string>
+       </property>
+       <property name="minimum">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #fff;</string>
+       </property>
+       <property name="text">
+        <string>ID do produto:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #FE7411;
+color: #fff;</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_Voltar"/>
+   <addaction name="action_Salvar"/>
+  </widget>
+  <action name="action_Voltar">
+   <property name="icon">
+    <iconset resource="imgs.qrc">
+     <normaloff>:/prod/imgsDaRocaBD/voltar.png</normaloff>:/prod/imgsDaRocaBD/voltar.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Voltar</string>
+   </property>
+   <property name="toolTip">
+    <string>Retorna para a tela inicial</string>
+   </property>
+  </action>
+  <action name="action_Salvar">
+   <property name="icon">
+    <iconset resource="imgs.qrc">
+     <normaloff>:/prod/imgsDaRocaBD/salvar.png</normaloff>:/prod/imgsDaRocaBD/salvar.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Salvar</string>
+   </property>
+   <property name="toolTip">
+    <string>Remove o produto</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

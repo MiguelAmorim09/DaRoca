@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="prod">
+    <file>imgsDaRocaBD/salvar.png</file>
+    <file>imgsDaRocaBD/voltar.png</file>
+    <file>imgsDaRocaBD/adicionar.png</file>
+    <file>imgsDaRocaBD/editar.png</file>
+    <file>imgsDaRocaBD/listar.png</file>
+    <file>imgsDaRocaBD/logoCoracao_header.png</file>
+    <file>imgsDaRocaBD/remover.png</file>
+    <file>imgsDaRocaBD/sair.png</file>
+  </qresource>
+</RCC>
