@@ -108,6 +108,10 @@ main{
     gap: 10px;
     border-radius: 5px;
     background-color: var(--quint-bg-color);
+
+    border: 0;
+
+    cursor: pointer;
 }
 
 #categorias h1{
@@ -127,6 +131,10 @@ main{
     gap: 10px;
     border-radius: 5px;
     background-color: var(--quint-bg-color);
+
+    border: 0;
+
+    cursor: pointer;
 }
 
 #legumes_categoria{
@@ -138,6 +146,10 @@ main{
     gap: 10px;
     border-radius: 5px;
     background-color: var(--quint-bg-color);
+
+    border: 0;
+
+    cursor: pointer;
 }
 
 #produtos{

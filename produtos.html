@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styleProdutos.css">
     <script src="produtos.js"></script>
 </head>
-<body onload="busca_dados()">
+<body onload="busca_dados(0)">
     <header>
         <div class="logos">
             <a href="principal.html"><img id="logoDaRoca_header" src="imgs\logoDaRoca_header.svg"></a>
@@ -29,9 +29,9 @@
     <main>
         <div>
             <div id="categorias">
-                <a href="#" id="frutas_categoria"><h1>Frutas</h1></a>
-                <a href="#" id="vegetais_categoria"><h1>Vegetais</h1></a>
-                <a href="#" id="legumes_categoria"><h1>Legumes</h1></a>
+                <button onclick="busca_dados(1)" id="frutas_categoria"><h1>Frutas</h1></button>
+                <button onclick="busca_dados(2)" id="vegetais_categoria"><h1>Vegetais</h1></button>
+                <button onclick="busca_dados(3)" id="legumes_categoria"><h1>Legumes</h1></button>
             </div>
 
             <div id="produtos">
