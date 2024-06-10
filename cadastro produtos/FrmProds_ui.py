@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'FrmProds.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.7.1
+## Created by: Qt User Interface Compiler version 6.7.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -26,7 +26,7 @@ class Ui_FrmProds(object):
         if not FrmProds.objectName():
             FrmProds.setObjectName(u"FrmProds")
         FrmProds.resize(800, 549)
-        FrmProds.setStyleSheet(u"background: #013C31;\n"
+        FrmProds.setStyleSheet(u"background-color: #013C31;\n"
 "")
         FrmProds.setToolButtonStyle(Qt.ToolButtonTextUnderIcon)
         self.action_Adicionar = QAction(FrmProds)

@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
     <link rel="stylesheet" href="styleProdutos.css">
+    <script src="produtos.js"></script>
 </head>
-<body>
+<body onload="busca_dados()">
     <header>
         <div class="logos">
             <a href="principal.html"><img id="logoDaRoca_header" src="imgs\logoDaRoca_header.svg"></a>
@@ -55,41 +56,5 @@
         </div>
         <h1>Projeto DaRoça - Cotuca - Feito por João Torres e Miguel Amorim - PD24</h1>
     </footer>
-    <script>
-        let produtos = [{nome: 'Banana', valor: 2.99, categoria: 'fruta', imagem: 'imgBanana_prod.png'},
-                        {nome: 'Laranja', valor: 4.99, categoria: 'fruta', imagem: 'imgLaranja_prod.png'},
-                        {nome: 'Brócolis', valor: 7.99, categoria: 'vegetal', imagem: 'imgBrocolis_prod.png'},
-                        {nome: 'Limao sisciliano', valor: 6.99, categoria: 'fruta', imagem: 'imgLimaoSis_prod.png'},
-                        {nome: 'Morango', valor: 12.99, categoria: 'fruta', imagem: 'imgMorango_prod.png'},
-                        {nome: 'Melancia', valor: 2.99, categoria: 'fruta',imagem: 'imgMelancia_prod.png'},
-                        {nome: 'Pimentão', valor: 19.99, categoria: 'legume', imagem: 'imgPimentao_prod.png'},
-                        {nome: 'Tomate', valor: 11.99, categoria: 'fruta', imagem: 'imgTomate_prod.png'},
-                        {nome: 'Abacaxi', valor: 6.99, categoria: 'fruta', imagem: 'imgAbacaxi_prod.png'},
-                        {nome: 'Pokan', valor: 5.99, categoria: 'fruta', imagem: 'imgPokan_prod.png'},
-                        {nome: 'Cereja', valor: 12.99, categoria: 'fruta', imagem: 'imgCereja_prod.png'},
-                        {nome: 'Abacate', valor: 6.99, categoria: 'fruta', imagem: 'imgAbacate_prod.png'},
-                        {nome: 'Berinjela', valor: 6.99, categoria: 'legume', imagem: 'imgBerinjela_prod.png'},
-                       ]
-        let pagina = ''
-        for(let i in produtos){
-            pagina += '<div id="'+produtos[i].nome+'"class="'+produtos[i].categoria+'">'
-            pagina += '<img src="imgs\\'+produtos[i].imagem+'">'
-            pagina += '<h1>'+produtos[i].nome+'</h1>'
-            pagina += '<div class="dados_produtos">'
-            pagina += '<div><h1>'+produtos[i].valor+'</h1></div>'
-            pagina += '<button>+</button>'
-            pagina += '<label for="unidade">'
-            pagina += '<select id="unidade">'
-            pagina += '<option value="quilo">Quilo</option>'
-            pagina += '<option value="duzia">Duzia</option>'
-            pagina += '<option value="unidade">Unidade</option>'
-            pagina += '</select>'
-            pagina += '</label>'
-            pagina += '</div>'
-            pagina += '</div>'
-        }
-
-        document.querySelector('#produtos').innerHTML = pagina
-    </script>
 </body>
 </html>

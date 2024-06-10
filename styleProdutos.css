@@ -150,7 +150,7 @@ main{
     margin: 0px auto 263px auto;
 }
 
-.fruta, .vegetal, .legume{
+.categ1, .categ2, .categ3{
     width: 270px;
     height: 490px;
     display: flex;
@@ -161,7 +161,7 @@ main{
     border-radius: 9px;
 }
 
-.fruta, .vegetal, .legume{
+.categ1, .categ2, .categ3{
     background-color: var(--terci-bg-color);
 }
 

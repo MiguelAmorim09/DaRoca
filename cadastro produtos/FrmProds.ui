@@ -14,7 +14,7 @@
    <string>Sistema de manutenção de banco de dados</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background: #013C31;
+   <string notr="true">background-color: #013C31;
 </string>
   </property>
   <property name="toolButtonStyle">
