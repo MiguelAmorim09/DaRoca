@@ -30,9 +30,10 @@ a{
 
 header{
     display: flex;
-    padding: 20px 42px;
     justify-content: space-between;
     align-items: center;
+    
+    padding: 20px 42px;
 }
 
 #logos{

@@ -32,12 +32,10 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    height: 10%;
+    padding: 21px 32px;
 
-    border-radius: 0px 0px 20px 20px;
     background-color: var(--secun-bg-color);
-
-    padding: 10px 40px 10px 40px;
+    border-radius: 0px 0px 13px 13px;
 }
 
 .logos{
