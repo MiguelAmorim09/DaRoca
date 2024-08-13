@@ -228,6 +228,10 @@ main{
     font-weight: 600;
 }
 
+.dados_produtos button:hover{
+    cursor: pointer;
+}
+
 #preFooter{
     background-color: var(--secun-bg-color);
     height: 100px;
