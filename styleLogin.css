@@ -111,6 +111,13 @@ form button{
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+
+    transition: all 0.3s ease-in-out;
+}
+
+form button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 #textos{
