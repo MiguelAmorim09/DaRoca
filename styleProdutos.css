@@ -110,6 +110,13 @@ main{
     border: 0;
 
     cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#frutas_categoria:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 #categorias h1{
@@ -133,6 +140,13 @@ main{
     border: 0;
 
     cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#vegetais_categoria:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 #legumes_categoria{
@@ -148,6 +162,13 @@ main{
     border: 0;
 
     cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#legumes_categoria:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 #produtos{
