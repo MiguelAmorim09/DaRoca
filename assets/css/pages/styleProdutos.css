@@ -1,42 +1,4 @@
-:root{
-    --princ-bg-color:#013C31;
-    --secun-bg-color: #FE7411;
-    --terci-bg-color: #33635A;
-    --quart-bg-color: #CC5D0C;
-    --quint-bg-color: #002A22;
-}
-
-@font-face {
-    font-family: PoetsenOne;
-    src: url(PoetsenOne-Regular.ttf);
-}
-
-@font-face {
-    font-family: Inter;
-    src: url(Inter-VariableFont_slnt,wght.ttf);
-}
-
-a{
-    text-decoration: none;
-    color: #FFF;
-    font-family: Inter;
-}
-
-body{
-    background-color: var(--princ-bg-color);
-    margin: 0;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 21px 32px;
-
-    background-color: var(--secun-bg-color);
-    border-radius: 0px 0px 13px 13px;
-}
+@import "./assets/css/global/global.css";
 
 .logos{
     display: flex;
@@ -267,23 +229,6 @@ main{
 #preFooter #bt-login, #preFooter #bt-cadastro{
     background-color: #ffffff00;
     border: none;
-}
-
-ul{
-    display: flex;
-    list-style: none;
-    gap: 70px;
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-footer{
-    background-color: var(--quart-bg-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 28px 90px 28px 107px;
 }
 
 footer h1{

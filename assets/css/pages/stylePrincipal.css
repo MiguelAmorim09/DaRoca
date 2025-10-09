@@ -1,18 +1,4 @@
-:root{
-    --princ-bg-color:#013C31;
-    --secun-bg-color: #FE7411;
-    --text-color: #fff;
-}
-
-@font-face {
-    font-family: PoetsenOne;
-    src: url(PoetsenOne-Regular.ttf);
-}
-
-@font-face {
-    font-family: Inter;
-    src: url(Inter-VariableFont_slnt,wght.ttf);
-}
+@import "./assets/css/global/global.css";
 
 body{
     background-color: var(--princ-bg-color);
@@ -20,12 +6,6 @@ body{
     margin: 0;
     height: 100vh;
     overflow: hidden;
-}
-
-a{
-    text-decoration: none;
-    color: var(--text-color);
-    font-family: Inter;
 }
 
 header{
@@ -40,14 +20,6 @@ header{
     display: flex;
     align-items: center;
     gap: 21px;
-}
-
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    align-items: center;
 }
 
 ul a{
