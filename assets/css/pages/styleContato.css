@@ -1,4 +1,4 @@
-@import "./assets/css/global/global.css";
+@import "../global/global.css";
 
 .logos{
     display: flex;

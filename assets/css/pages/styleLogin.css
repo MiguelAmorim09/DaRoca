@@ -1,4 +1,12 @@
-@import "./assets/css/global/global.css";
+@import "../global/global.css";
+
+body{
+    height: 100vh;
+    background-color: #013C31;
+    margin: 0;
+
+    display: flex;
+}
 
 #voltar{
     color: #FFF;

@@ -1,7 +1,7 @@
-@import "./assets/css/global/global.css";
+@import "../global/global.css";
 
 body{
-    background: url('imgs\\background.svg');
+    background: url('../../images/background.svg');
     margin: 0px;
 }
 

@@ -1,4 +1,10 @@
-@import "./assets/css/global/global.css";
+@import "../global/global.css";
+
+
+body{
+    background-color: var(--princ-bg-color);
+    margin: 0;
+}
 
 .logos{
     display: flex;
